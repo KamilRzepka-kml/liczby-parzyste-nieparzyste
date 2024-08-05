@@ -35,7 +35,7 @@ namespace ParzysteNieparzysteApp
             {
                 if (!int.TryParse(Console.ReadLine(), out var number))
                 {
-                    Console.WriteLine("Podana warość nie jest liczbą całkowitą! \nSpróbuj ponownie:");
+                    Console.WriteLine("Podana wartość nie jest liczbą całkowitą! \nSpróbuj ponownie:");
                     continue;
                 }
                 return number;
