@@ -15,6 +15,8 @@ namespace ParzysteNieparzysteApp
 
             var userNumber = GetNumber();
 
+
+
             if (userNumber % 2 == 0)
             {
                 Console.WriteLine("podana liczba jest parzysta");
